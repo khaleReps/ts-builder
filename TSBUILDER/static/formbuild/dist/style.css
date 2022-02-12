@@ -1,0 +1,76 @@
+.uses-column, .app {
+  font-size: 0;
+}
+.uses-column > *, .app > * {
+  font-size: 1rem;
+}
+
+.column, #editor, #output, #code {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 1rem;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.4;
+  font-family: 'Helvetica Neue', sans-serif;
+  padding: 0 1rem 1rem;
+  color: #333;
+}
+
+#editor {
+  width: 33.33333%;
+}
+#editor textarea {
+  width: 100%;
+  height: 50%;
+}
+
+#output, #code {
+  width: 33.33333%;
+  margin: 0;
+  border-left: 1px solid #eee;
+  min-height: 13rem;
+}
+#output label, #code label {
+  margin: .5rem 0 .5rem;
+  display: block;
+}
+#output input[type='submit'], #code input[type='submit'] {
+  margin: 1rem 0 .5rem;
+  display: block;
+}
+#output .radio, #code .radio {
+  margin: 0;
+}
+#output input[type='text'], #output textarea, #code input[type='text'], #code textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  display: block;
+}
+#output input, #code input {
+  color: #000;
+}
+
+#code {
+  font-size: .6rem;
+  padding: 1rem;
+}
+
+blockquote {
+  border-left: 1px dashed #ccc;
+  padding-left: 1rem;
+}
+
+pre {
+  background: #eee;
+  padding: 1rem;
+}

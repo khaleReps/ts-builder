@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Simple Form Builder POC</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Simple Form Builder</h1>
+<div class="app">
+<div id="editor">
+  <textarea name="formdown" id="formdown" rows=10 placeholder='Enter each of your form labels on a single line.'></textarea>
+  <p>Example:</p>
+  <blockquote>Name<br>
+Email<br>
+Tel<br>
+Message>textarea<br>
+[] Here is a checkbox<br>
+[*] This one is checked<br>
+() This is a radio button<br>
+(*) This is a checked radio button    
+  </blockquote>
+  <p>More options available in the future.</p>
+</div>
+<div id="output">Form will render here.</div>  
+<pre id="code">HTML Code will appear here.</pre>  
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
