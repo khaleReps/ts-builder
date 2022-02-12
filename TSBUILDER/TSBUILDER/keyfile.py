@@ -1,0 +1,1 @@
+key = 'django-insecure-jmy+z2dax@^y_51xsa0n$(q_^j=5kfaxk=9h(+8t))mppk3f3u'
