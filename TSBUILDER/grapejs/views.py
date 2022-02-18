@@ -6,7 +6,7 @@ from django.http import HttpResponseRedirect
 
 def builder(request):
     context = {}
-    template = 'grapejs/builder.html'
+    template = 'grapejs/builder-demo.html'
     return render(request, template, context)
     # return HttpResponse('builder page')
 
