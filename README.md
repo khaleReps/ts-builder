@@ -12,3 +12,5 @@ What apps will it have?
 - SEO Tools
 
 - Prebuilt Templates to show you how its done
+
+<img src="https://github.com/ktsoaela/ts-builder/blob/main/tsbuilder.gif">
